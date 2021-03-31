@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "main";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: $primary-font;
+  height: 100%;
+  background-color: $bg-primary;
+}

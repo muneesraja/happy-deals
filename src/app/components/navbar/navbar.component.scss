@@ -1,0 +1,24 @@
+@import "../../../main";
+
+nav {
+  height: 3rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    right: 5rem;
+    li {
+      display: flex;
+      width: 8rem;
+      align-content: space-around;
+      a {
+        text-decoration: none;
+        color: $text-primary;
+      }
+    }
+  }
+}
